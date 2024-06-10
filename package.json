@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "lint": "prettier --check . && dotnet format --verify-no-changes --verbosity diagnostic",
+    "lint:fix": "prettier --write . && dotnet format --verbosity diagnostic"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.1"
+  }
+}
