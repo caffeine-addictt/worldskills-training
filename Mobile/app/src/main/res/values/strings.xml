@@ -1,0 +1,41 @@
+<resources>
+  <string name="app_name">StudentMobileApp</string>
+  <string name="action_settings">Settings</string>
+
+  <!-- Globals -->
+  <string name="date_select_button">Select Date</string>
+
+  <!-- Strings used for fragments for navigation -->
+  <string name="first_fragment_label">Login</string>
+  <string name="second_fragment_label">Add New Student</string>
+  <string name="second_fragment_label2">View Student Profile</string>
+
+  <string name="submit">Submit</string>
+  <string name="edit">Edit</string>
+  <string name="previous">Previous</string>
+
+  <!-- Auth -->
+  <string name="username">Username: </string>
+  <string name="password">Password: </string>
+  <string name="login">Login</string>
+
+  <!-- Workshop Request Add -->
+  <string name="wrAdd_title">Title: </string>
+  <string name="wrAdd_category">Category: </string>
+  <string name="wrAdd_startDate">Start Date: </string>
+  <string name="wrAdd_endDate">End Date: </string>
+  <string name="wrAdd_timeslot">Timeslot: </string>
+  <string name="wrAdd_saloon">Saloon: </string>
+  <string name="wrAdd_createBtn">Create</string>
+  <string-array name="categories">
+    <item>Security</item>
+    <item>Trade</item>
+    <item>Technology</item>
+    <item>Network</item>
+  </string-array>
+  <string-array name="timeslots">
+    <item>10:00 – 12:00</item>
+    <item>12:00 – 14:00</item>
+    <item>14:00 – 16:00</item>
+  </string-array>
+</resources>

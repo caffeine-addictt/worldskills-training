@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/nav_graph"
+  app:startDestination="@id/Workshops">
+
+  <fragment
+    android:id="@+id/Workshops"
+    android:name="com.example.studentmobileapp.WorkshopsFragment"
+    tools:layout="@layout/workshops_view" >
+    <action
+      android:id="@+id/action_Workshops_to_Login"
+      app:destination="@id/Login" />
+
+    <action
+      android:id="@+id/action_Workshops_to_WorkshopRequest"
+      app:destination="@+id/WorkshopRequest" />
+  </fragment>
+
+  <fragment
+    android:id="@+id/Login"
+    android:name="com.example.studentmobileapp.LoginFragment"
+    tools:layout="@layout/login_view" >
+    <action
+      android:id="@+id/action_Login_to_Workshops"
+      app:destination="@id/Workshops" />
+  </fragment>
+
+  <!--Workshop request start-->
+  <fragment
+    android:id="@+id/WorkshopRequest"
+    android:name="com.example.studentmobileapp.WorkshopRequestFragment"
+    tools:layout="@layout/workshop_request_view" >
+    <action
+      android:id="@+id/action_WorkshopRequest_to_Login"
+      app:destination="@+id/Login" />
+    <action
+      android:id="@+id/action_WorkshopRequest_to_WorkshopRequestAdd"
+      app:destination="@+id/WorkshopRequestAdd" />
+  </fragment>
+
+  <fragment
+    android:id="@+id/WorkshopRequestAdd"
+    android:name="com.example.studentmobileapp.WorkshopRequestAddFragment"
+    tools:layout="@layout/workshop_request_add_view" >
+    <action
+      android:id="@+id/action_WorkshopRequestAdd_to_WorkshopRequest"
+      app:destination="@+id/WorkshopRequest" />
+  </fragment>
+  <!--Workshop request end-->
+</navigation>

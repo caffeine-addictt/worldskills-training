@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fillViewport="true"
+  app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  tools:context=".WorkshopRequestAddFragment">
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--start of title-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+        <TextView
+          android:id="@+id/title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/wrAdd_title" />
+        <EditText
+          android:id="@+id/titleET"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <!--end of title-->
+
+    <!--start of category-->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginBottom="16dp">
+      <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrAdd_category" />
+      <Spinner
+        android:id="@+id/categorySP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <!--end of category-->
+
+    <!--start of timeslot-->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="6dp"
+      android:layout_marginBottom="16dp" >
+      <TextView
+        android:id="@+id/timeslot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrAdd_timeslot" />
+      <Spinner
+        android:id="@+id/timeslotSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <!--end of timeslot-->
+
+    <!--start of saloon-->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="6dp"
+      android:layout_marginBottom="16dp" >
+      <TextView
+        android:id="@+id/saloon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrAdd_saloon" />
+      <Spinner
+        android:id="@+id/saloonSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <!--end of saloon-->
+
+    <!--start of startDate-->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginBottom="16dp">
+      <TextView
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrAdd_startDate" />
+
+      <Button
+        android:id="@+id/startDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_select_button"/>
+    </LinearLayout>
+    <!--end of startDate-->
+
+    <!--end of endDate-->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginBottom="16dp">
+      <TextView
+        android:id="@+id/endDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrAdd_endDate" />
+
+      <Button
+        android:id="@+id/endDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_select_button"/>
+    </LinearLayout>
+    <!--end of endDate-->
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center_horizontal">
+      <Button
+        android:id="@+id/createBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrAdd_createBtn" />
+    </LinearLayout>
+  </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
