@@ -18,7 +18,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ws_1">
+  <a href="https://github.com/caffeine-addictt/worldskills-training">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,9 +30,9 @@
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ws_1/issues">Report Bug</a>
+    <a href="https://github.com/caffeine-addictt/worldskills-training/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ws_1/issues">Request Feature</a>
+    <a href="https://github.com/caffeine-addictt/worldskills-training/issues">Request Feature</a>
   </p>
 </div>
 
@@ -72,7 +72,7 @@ _Below is an example of how you can install and use WorldSkills Training 1._
 
 Our docs are [here]()!
 
-See the [open issues](https://github.com/ws_1/issues)
+See the [open issues](https://github.com/caffeine-addictt/worldskills-training/issues)
 for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,8 +133,8 @@ Jun Xiang - [contact@ngjx.org](mailto:contact@ngjx.org)
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [forks-shield]: https://img.shields.io/github/forks/ws_1.svg?style=for-the-badge
-[forks-url]: https://github.com/ws_1/network/members
+[forks-url]: https://github.com/caffeine-addictt/worldskills-training/network/members
 [stars-shield]: https://img.shields.io/github/stars/ws_1.svg?style=for-the-badge&color=yellow
-[stars-url]: https://github.com/ws_1/stargazers
+[stars-url]: https://github.com/caffeine-addictt/worldskills-training/stargazers
 [license-shield]: https://img.shields.io/github/license/ws_1.svg?style=for-the-badge
-[license-url]: https://github.com/ws_1/blob/master/LICENSE.txt
+[license-url]: https://github.com/caffeine-addictt/worldskills-training/blob/master/LICENSE.txt

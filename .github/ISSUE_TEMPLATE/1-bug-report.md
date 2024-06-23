@@ -9,7 +9,7 @@ assignees: ['caffeine-addictt']
 # Bug report
 
 Your issue may already be reported!
-Please check out our [active issues](https://github.com/ws_1/issues) before creating one.
+Please check out our [active issues](https://github.com/caffeine-addictt/worldskills-training/issues) before creating one.
 
 ## Expected Behavior
 

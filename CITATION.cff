@@ -3,7 +3,7 @@ authors:
   - alias: Jun Xiang
 identifiers:
   - type: url
-    value: https://github.com/ws_1/releases/tag/v0.0.0
+    value: https://github.com/caffeine-addictt/worldskills-training/releases/tag/v0.0.0
     description: The GitHub release URL of tag v0.0.0.
 cff-version: 1.2.0
 date-released: yyyy-mm-dd
@@ -11,7 +11,7 @@ keywords:
   -
 license: MIT
 message: If you use this software, please cite it using these metadata.
-repository-code: https://github.com/ws_1
+repository-code: https://github.com/caffeine-addictt/worldskills-training
 title: WorldSkills Training 1
 type: software
 version: 0.0.0
