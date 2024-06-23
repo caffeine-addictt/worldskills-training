@@ -18,16 +18,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/caffeine-addictt/worldskills-training">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">WorldSkills Training 1</h3>
+  <h3 align="center">World Skills Training</h3>
 
   <p align="center">
-    For WorkSkills training 1
-    <br />
-    <a href=""><strong>Explore the docs »</strong></a>
+    World Skills Training
     <br />
     <br />
     <a href="https://github.com/caffeine-addictt/worldskills-training/issues">Report Bug</a>
@@ -40,63 +34,7 @@
 
 ## About The Project
 
-![Social Card](images/socialcard.png)
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-This is an example of how you can set up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
--
-
-### Installation
-
-_Below is an example of how you can install and use WorldSkills Training 1._
-
-1.
-2.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- DOCS -->
-
-## Documentation
-
-Our docs are [here]()!
-
-See the [open issues](https://github.com/caffeine-addictt/worldskills-training/issues)
-for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community
-such an amazing place to learn, inspire, and create.
-Any contributions you make are **greatly appreciated**. ( ˶ˆᗜˆ˵ )
-
-If you have a suggestion that would make this better,
-please fork the repo and create a pull request.
-You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Read our [contributing guide](./CONTRIBUTING.md) for more information.
+This is the project I have created over the course of 2 weeks for training for worldskills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,15 +42,7 @@ Read our [contributing guide](./CONTRIBUTING.md) for more information.
 
 ## License
 
-Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-Jun Xiang - [contact@ngjx.org](mailto:contact@ngjx.org)
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,4 +67,4 @@ Jun Xiang - [contact@ngjx.org](mailto:contact@ngjx.org)
 [stars-shield]: https://img.shields.io/github/stars/ws_1.svg?style=for-the-badge&color=yellow
 [stars-url]: https://github.com/caffeine-addictt/worldskills-training/stargazers
 [license-shield]: https://img.shields.io/github/license/ws_1.svg?style=for-the-badge
-[license-url]: https://github.com/caffeine-addictt/worldskills-training/blob/master/LICENSE.txt
+[license-url]: https://github.com/caffeine-addictt/worldskills-training/blob/master/LICENSE
