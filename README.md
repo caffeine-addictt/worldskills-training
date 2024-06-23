@@ -36,6 +36,12 @@
 
 This is the project I have created over the course of 2 weeks for training for worldskills.
 
+### The projects consist of the following:
+
+- Web API (C#)
+- Desktop App (C#)
+- Mobile App (Java + Kotlin)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
